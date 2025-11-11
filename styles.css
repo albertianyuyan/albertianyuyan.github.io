@@ -100,11 +100,13 @@ ol li, ul li {
 ol li p, ul li p {
     font-size: clamp(16px, 1.8vw, 18px);
     color: var(--clr-text-primary);
-    margin-top: 5px;
+    margin-top: 0px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
 }
+
+
 
 ol li strong, ul li strong {
     font-size: clamp(16px, 1.8vw, 18px);
@@ -243,9 +245,7 @@ nav ul li.current a {
     border-radius: 8px;
 }
 
-ul li p {
-    margin-top: 0px; /* Reduce the top margin of the paragraph */
-}
+
 
 /* Responsive design */
 /* Tablet styles */
